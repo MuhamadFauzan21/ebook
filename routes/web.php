@@ -21,7 +21,10 @@ Route::get('coba', function () {
     return "Konichiwaaaaa :o";
 });
 
-Route::get
+Route::get('coba 1', function(){
+    return ['Zannn','Fauzan','Ojan'];
+});
+//json objek
 Route::get('coba 2', function(){
     return [
         'Nama' => 'Muhamad Fauzan',
