@@ -20,3 +20,20 @@ Route::get('/', function () {
 Route::get('coba', function () {
     return "Konichiwaaaaa :o";
 });
+
+Route::get
+Route::get('coba 2', function(){
+    return [
+        'Nama' => 'Muhamad Fauzan',
+        'Kelas' => 'XII RPL 4',
+        'Nis' => '3103120137'
+    ];
+});
+
+Route::get('coba 3', function(){
+    return [
+        'Nama' => 'Muhamad Fauzan',
+        'Kelas' => 'XII RPL 4',
+        'Nis' => '3103120137'
+    ];
+});
